@@ -1,0 +1,72 @@
+/* ==========================================================================
+   KARITA ARTISAN DRY BAKERY - DESIGN SYSTEM & TOKENS
+   Theme: Authentic, Modern, Warm Luxury Bakery
+   ========================================================================== */
+
+:root {
+  /* Color Palette - Warm Earth, Golden Crust, Rich Espresso, Frosted Cream */
+  --color-primary: #B67324;
+  --color-primary-hover: #985C18;
+  --color-primary-dark: #74430F;
+  --color-primary-light: #EBB672;
+  --color-primary-subtle: #FDF7EE;
+  
+  --color-accent-amber: #D97706;
+  --color-accent-gold: #F59E0B;
+  --color-accent-butter: #FEF3C7;
+  
+  --color-dark: #1E1712;
+  --color-dark-surface: #2C221B;
+  --color-dark-subtle: #3A2E25;
+  
+  --color-cream: #FBF8F3;
+  --color-cream-card: #FFFFFF;
+  --color-cream-muted: #F4ECE1;
+  --color-cream-border: #E8DCCF;
+  
+  --color-text-main: #271E17;
+  --color-text-body: #544438;
+  --color-text-muted: #827164;
+  --color-text-light: #FAF5EE;
+
+  /* WhatsApp Brand Colors */
+  --color-wa: #25D366;
+  --color-wa-hover: #20BA5A;
+  --color-wa-dark: #128C7E;
+  --color-wa-subtle: #EDFBF1;
+
+  /* Status Colors */
+  --color-badge-bestseller: #B45309;
+  --color-badge-bestseller-bg: #FEF3C7;
+  --color-badge-signature: #047857;
+  --color-badge-signature-bg: #D1FAE5;
+  --color-badge-new: #4338CA;
+  --color-badge-new-bg: #E0E7FF;
+
+  /* Typography */
+  --font-serif: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 6px rgba(30, 23, 18, 0.04);
+  --shadow-md: 0 8px 24px rgba(30, 23, 18, 0.08);
+  --shadow-lg: 0 16px 40px rgba(30, 23, 18, 0.12);
+  --shadow-hover: 0 20px 45px rgba(182, 115, 36, 0.18);
+  --shadow-card: 0 4px 20px rgba(30, 23, 18, 0.06);
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.18s ease;
+  --transition-normal: 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Max Widths */
+  --container-max-w: 1240px;
+  --header-height: 80px;
+}
